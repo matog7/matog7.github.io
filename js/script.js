@@ -33,7 +33,7 @@ window.onload = function() {
     }
 
     function scrollProject() {
-        if(window.scrollY >= 2000) {
+        if(window.scrollY >= 1700) {
             proj.style.opacity = '1';
             proj.style.transform = 'transformY(0px)'
             proj.style.transition = '400ms ease-out';
